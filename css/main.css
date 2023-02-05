@@ -100,3 +100,14 @@ margin:10px;
   float: left;
 	width: 50%;
 }
+
+.link a{
+  position:fixed;
+  top:30px;
+  font-size:12px;
+  border-bottom:none;
+}
+
+.link a:hover{
+  box-shadow:none;
+}
