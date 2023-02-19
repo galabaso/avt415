@@ -88,6 +88,10 @@ letter-spacing:-.5px;
 margin:0px 0px 5px 15px;
 }
 
+dd{
+  text-indent: -1.3em;
+}
+
 dd:before{
   content:'×';
   font-size:13px;
