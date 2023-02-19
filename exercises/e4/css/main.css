@@ -8,7 +8,7 @@ body{
   color:#243fc6;
   font-family:space mono;
   font-size:15px;
-  margin:50px auto;
+  margin:30px auto;
   width:1440px;
   padding:50px;
   -webkit-font-smoothing:antialiased;
@@ -70,12 +70,29 @@ dt{
 
 dd{
   color:#3e3d44;
-  line-height:1.5em;
+  letter-spacing:-0.35px;
+  line-height:1.6em;
   margin-left:5px;
+  margin-bottom:15px;
+}
+
+.highlight{
+  font-weight:bold;
 }
 
 @media only screen and (max-width: 1440px) {
   body {
     width:50%;
   }
+}
+
+.link a{
+  position:aboslute;
+  top:30px;
+  font-size:12px;
+  border-bottom:none;
+}
+
+.link a:hover{
+  box-shadow:none;
 }
