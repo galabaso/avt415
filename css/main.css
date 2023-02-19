@@ -68,6 +68,7 @@ font-weight:normal;
 letter-spacing:-0.5px;
 font-size:32px;
 color:#2d39d6;
+margin-bottom:40px;
 }
 
 h4{
@@ -76,12 +77,15 @@ font-weight:bold;
 font-style:italic;
 }
 
+dl{
+  margin-bottom:30px;
+}
+
 dt{
 font-weight:bold;
 font-size:20px;
 letter-spacing:-.5px;
 margin:0px 0px 5px 15px;
-
 }
 
 dd:before{
